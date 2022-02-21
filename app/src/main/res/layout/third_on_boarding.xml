@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivThirdOnBoarding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30dp"
+        android:contentDescription="@string/imageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/third_on_boarding" />
+
+    <TextView
+        android:id="@+id/tvTitleThirdOnBoarding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/lorem_ipsum"
+        android:textColor="@color/black32"
+        android:textSize="@dimen/_24sp"
+        app:layout_constraintEnd_toEndOf="@+id/ivThirdOnBoarding"
+        app:layout_constraintStart_toStartOf="@+id/ivThirdOnBoarding"
+        app:layout_constraintTop_toBottomOf="@+id/ivThirdOnBoarding" />
+
+    <TextView
+        android:id="@+id/tvThirdOnBoarding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_30dp"
+        android:layout_marginEnd="@dimen/_30dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/dummy_text"
+        android:textAlignment="center"
+        android:textColor="@color/black50"
+        android:textSize="@dimen/_14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvTitleThirdOnBoarding"
+        app:layout_constraintStart_toStartOf="@+id/tvTitleThirdOnBoarding"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleThirdOnBoarding" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
