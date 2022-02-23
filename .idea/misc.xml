@@ -10,9 +10,13 @@
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.3754528985507246" />
+        <entry key="app/src/main/res/layout/article_list_item.xml" value="0.19300911854103345" />
+        <entry key="app/src/main/res/layout/dashboard_article_item.xml" value="0.19300911854103345" />
         <entry key="app/src/main/res/layout/first_on_boarding.xml" value="0.19300911854103345" />
+        <entry key="app/src/main/res/layout/pet_food_item.xml" value="0.19300911854103345" />
         <entry key="app/src/main/res/layout/second_on_boarding.xml" value="0.19300911854103345" />
         <entry key="app/src/main/res/layout/third_on_boarding.xml" value="0.19300911854103345" />
+        <entry key="app/src/main/res/layout/vet_item.xml" value="0.19300911854103345" />
       </map>
     </option>
   </component>
