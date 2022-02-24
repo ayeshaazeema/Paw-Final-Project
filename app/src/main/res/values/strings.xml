@@ -16,4 +16,13 @@
     <string name="imageview">ImageView</string>
     <string name="title">Title</string>
     <string name="category">Category</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="brand">Brand</string>
+    <string name="price">Price</string>
+    <string name="vet_name">Vet Name</string>
+    <string name="hospital_name">Hospital Name</string>
+    <string name="hospital_location">Hospital Location</string>
+    <string name="category">Category</string>
 </resources>

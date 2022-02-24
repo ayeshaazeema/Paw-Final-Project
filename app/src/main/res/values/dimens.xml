@@ -12,4 +12,9 @@
     <dimen name="_24sp">24sp</dimen>
     <dimen name="_14sp">14sp</dimen>
     <dimen name="_25dp">25dp</dimen>
+    <dimen name="_400dp">400dp</dimen>
+    <dimen name="_155dp">155dp</dimen>
+    <dimen name="_120dp">120dp</dimen>
+    <dimen name="_12sp">12sp</dimen>
+    <dimen name="_150dp">150dp</dimen>
 </resources>

@@ -1,6 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="@dimen/_150dp"
+    android:layout_marginStart="@dimen/_20dp"
+    android:layout_marginTop="@dimen/_10dp"
+    android:layout_marginEnd="@dimen/_20dp"
+    android:layout_marginBottom="@dimen/_10dp"
+    app:cardCornerRadius="@dimen/_10dp"
+    app:cardElevation="@dimen/_5dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_10dp">
+
+        <ImageView
+            android:id="@+id/ivVetItem"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/imageview"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvNameVetItem"
+            style="@style/TextStyleSemiBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10dp"
+            android:text="@string/vet_name"
+            android:textColor="@color/black32"
+            app:layout_constraintStart_toEndOf="@+id/ivVetItem"
+            app:layout_constraintTop_toTopOf="@+id/ivVetItem" />
+
+        <TextView
+            android:id="@+id/tvHospitalNameVetItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/hospital_name"
+            android:textColor="@color/black32"
+            android:textSize="@dimen/_14sp"
+            app:layout_constraintStart_toStartOf="@+id/tvNameVetItem"
+            app:layout_constraintTop_toBottomOf="@+id/tvNameVetItem" />
+
+        <TextView
+            android:id="@+id/tvHospitalLocationVetItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/hospital_location"
+            android:textColor="@color/black50"
+            android:textSize="@dimen/_14sp"
+            app:layout_constraintStart_toStartOf="@+id/tvHospitalNameVetItem"
+            app:layout_constraintTop_toBottomOf="@+id/tvHospitalNameVetItem" />
+
+        <TextView
+            android:id="@+id/tvPriceVetItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/price"
+            android:textColor="@color/black32"
+            android:textSize="@dimen/_14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/ivVetItem"
+            app:layout_constraintStart_toStartOf="@+id/tvHospitalLocationVetItem" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -15,4 +15,6 @@
     <color name="green">#1CAE81</color>
     <color name="yellow">#FDC761</color>
     <color name="red">#BD1F36</color>
+
+    <color name="yellow_transparent">#80FDC761</color>
 </resources>
