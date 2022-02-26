@@ -9,9 +9,11 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19300911854103345" />
         <entry key="app/src/main/res/layout/activity_on_boarding.xml" value="0.19300911854103345" />
         <entry key="app/src/main/res/layout/activity_onboarding.xml" value="0.19300911854103345" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.19300911854103345" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.3754528985507246" />
+        <entry key="app/src/main/res/layout/activity_vet.xml" value="0.1096757852077001" />
         <entry key="app/src/main/res/layout/article_list_item.xml" value="0.19300911854103345" />
         <entry key="app/src/main/res/layout/dashboard_article_item.xml" value="0.19300911854103345" />
         <entry key="app/src/main/res/layout/first_on_boarding.xml" value="0.19300911854103345" />
@@ -19,6 +21,7 @@
         <entry key="app/src/main/res/layout/second_on_boarding.xml" value="0.19300911854103345" />
         <entry key="app/src/main/res/layout/third_on_boarding.xml" value="0.19300911854103345" />
         <entry key="app/src/main/res/layout/vet_item.xml" value="0.19300911854103345" />
+        <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.17685185185185184" />
       </map>
     </option>
   </component>

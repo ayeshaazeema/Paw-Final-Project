@@ -25,4 +25,9 @@
     <string name="hospital_name">Hospital Name</string>
     <string name="hospital_location">Hospital Location</string>
     <string name="category">Category</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="article">Article</string>
+    <string name="vet">Vet</string>
+    <string name="pet_food">Pet Food</string>
+    <string name="profile">Profile</string>
 </resources>

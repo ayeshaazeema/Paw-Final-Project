@@ -1,7 +1,8 @@
-package com.ayeshaazeema.paw
+package com.ayeshaazeema.paw.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.ayeshaazeema.paw.R
 
 class SignInActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

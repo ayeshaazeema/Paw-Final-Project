@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.viewpager.widget.ViewPager
 import com.ayeshaazeema.paw.adapter.SliderAdapter
 import com.ayeshaazeema.paw.db.AppPreferences
+import com.ayeshaazeema.paw.ui.SignInActivity
 import kotlinx.android.synthetic.main.activity_on_boarding.*
 
 class OnboardingActivity : AppCompatActivity() {
