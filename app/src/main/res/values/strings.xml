@@ -24,10 +24,17 @@
     <string name="vet_name">Vet Name</string>
     <string name="hospital_name">Hospital Name</string>
     <string name="hospital_location">Hospital Location</string>
-    <string name="category">Category</string>
     <string name="dashboard">Dashboard</string>
     <string name="article">Article</string>
     <string name="vet">Vet</string>
     <string name="pet_food">Pet Food</string>
     <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_vet">Search Vet</string>
+    <string name="full_name_profile">Full Name</string>
+    <string name="email_profile">Email</string>
+    <string name="account">Account</string>
+    <string name="imagebutton">imageButton</string>
+    <string name="sign_out">Sign Out</string>
 </resources>

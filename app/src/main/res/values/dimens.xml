@@ -17,4 +17,7 @@
     <dimen name="_120dp">120dp</dimen>
     <dimen name="_12sp">12sp</dimen>
     <dimen name="_150dp">150dp</dimen>
+    <dimen name="_110dp">110dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+    <dimen name="_280dp">280dp</dimen>
 </resources>

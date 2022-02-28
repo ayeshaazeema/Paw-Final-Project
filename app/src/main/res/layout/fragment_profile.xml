@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clProfile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.ProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clBio"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_280dp"
+        android:background="@drawable/search_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvNameProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/full_name_profile"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_24sp"
+            app:layout_constraintEnd_toEndOf="@+id/ivProfile"
+            app:layout_constraintStart_toStartOf="@+id/ivProfile"
+            app:layout_constraintTop_toBottomOf="@+id/ivProfile" />
+
+        <TextView
+            android:id="@+id/tvEmailProfile"
+            style="@style/TextStyleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_profile"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/tvNameProfile"
+            app:layout_constraintStart_toStartOf="@+id/tvNameProfile"
+            app:layout_constraintTop_toBottomOf="@+id/tvNameProfile" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tvAccount"
+        style="@style/TextStyleSemiBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_30dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:text="@string/account"
+        android:textColor="@color/black32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clBio" />
+
+    <ImageButton
+        android:id="@+id/ibSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20dp"
+        android:background="@drawable/button_sign_out"
+        android:contentDescription="@string/imagebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvAccount"
+        app:layout_constraintTop_toBottomOf="@+id/tvAccount"
+        app:srcCompat="@drawable/ic_logout"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/tvSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/sign_out"
+        android:textColor="@color/black32"
+        android:textSize="@dimen/_14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ibSignOut"
+        app:layout_constraintStart_toEndOf="@+id/ibSignOut"
+        app:layout_constraintTop_toTopOf="@+id/ibSignOut" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

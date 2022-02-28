@@ -1,12 +1,12 @@
-package com.ayeshaazeema.paw.ui
+package com.ayeshaazeema.paw.view.activity.dashboard
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.ayeshaazeema.paw.R
 
-class SignUpActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sign_up)
+        setContentView(R.layout.activity_main)
     }
 }

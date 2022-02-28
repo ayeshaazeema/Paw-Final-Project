@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/green"
-    tools:context=".ui.SignUpActivity">
+    tools:context=".view.activity.auth.SignUpActivity">
 
     <TextView
         android:id="@+id/tvSignUp"
@@ -51,8 +51,8 @@
             android:id="@+id/etFullName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
             android:hint="@string/full_name"
-
             android:inputType="textEmailAddress" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -78,6 +78,7 @@
             android:id="@+id/etEmailSignUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
             android:hint="@string/email"
             android:inputType="textEmailAddress" />
 
@@ -104,6 +105,7 @@
             android:id="@+id/etPasswordSignUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
             android:hint="@string/password"
             android:inputType="textEmailAddress" />
 
@@ -130,6 +132,7 @@
             android:id="@+id/etConfirmPasswordSignUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
             android:hint="@string/confirm_password"
             android:inputType="textEmailAddress" />
 
@@ -143,7 +146,7 @@
         android:layout_marginStart="@dimen/_30dp"
         android:layout_marginEnd="@dimen/_30dp"
         android:layout_marginBottom="@dimen/_30dp"
-        android:background="@drawable/background_button"
+        android:background="@drawable/button_background"
         android:text="@string/sign_up"
         app:layout_constraintBottom_toTopOf="@+id/tvSignUpQuestion"
         app:layout_constraintEnd_toEndOf="parent"
@@ -176,6 +179,5 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/tvSignUpQuestion"
         app:layout_constraintTop_toTopOf="@+id/tvSignUpQuestion" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

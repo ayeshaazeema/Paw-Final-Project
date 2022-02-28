@@ -1,12 +1,12 @@
-package com.ayeshaazeema.paw.ui
+package com.ayeshaazeema.paw.view.activity.splash
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.ayeshaazeema.paw.OnboardingActivity
 import com.ayeshaazeema.paw.R
+import com.ayeshaazeema.paw.view.activity.OnboardingActivity
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

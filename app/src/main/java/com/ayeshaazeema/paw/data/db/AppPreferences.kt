@@ -1,4 +1,4 @@
-package com.ayeshaazeema.paw.db
+package com.ayeshaazeema.paw.data.db
 
 import android.content.Context
 import android.content.SharedPreferences

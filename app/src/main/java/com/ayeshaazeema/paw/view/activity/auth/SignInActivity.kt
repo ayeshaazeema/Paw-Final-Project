@@ -1,4 +1,4 @@
-package com.ayeshaazeema.paw.ui
+package com.ayeshaazeema.paw.view.activity.auth
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

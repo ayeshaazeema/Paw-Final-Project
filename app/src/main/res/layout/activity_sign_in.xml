@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/green"
-    tools:context=".ui.SignInActivity">
+    tools:context=".view.activity.auth.SignInActivity">
 
     <TextView
         android:id="@+id/tvSignIn"
@@ -92,7 +92,7 @@
         android:layout_marginStart="@dimen/_30dp"
         android:layout_marginEnd="@dimen/_30dp"
         android:layout_marginBottom="@dimen/_10dp"
-        android:background="@drawable/background_button"
+        android:background="@drawable/button_background"
         android:text="@string/sign_in"
         app:layout_constraintBottom_toTopOf="@+id/tvForgotPasswordSignIn"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,4 +1,4 @@
-package com.ayeshaazeema.paw
+package com.ayeshaazeema.paw.view.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,10 +6,11 @@ import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import androidx.viewpager.widget.ViewPager
-import com.ayeshaazeema.paw.adapter.SliderAdapter
-import com.ayeshaazeema.paw.db.AppPreferences
-import com.ayeshaazeema.paw.ui.SignInActivity
-import kotlinx.android.synthetic.main.activity_on_boarding.*
+import com.ayeshaazeema.paw.R
+import com.ayeshaazeema.paw.data.adapter.SliderAdapter
+import com.ayeshaazeema.paw.data.db.AppPreferences
+import com.ayeshaazeema.paw.view.activity.auth.SignInActivity
+import kotlinx.android.synthetic.main.activity_onboarding.*
 
 class OnboardingActivity : AppCompatActivity() {
 

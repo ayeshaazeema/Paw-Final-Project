@@ -25,16 +25,16 @@
             android:name=".FirstOnBoardingActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.SignUpActivity"
+            android:name=".view.activity.auth.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.SignInActivity"
+            android:name=".view.activity.auth.SignInActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.SplashActivity"
+            android:name=".view.activity.splash.SplashActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.activity.dashboard.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

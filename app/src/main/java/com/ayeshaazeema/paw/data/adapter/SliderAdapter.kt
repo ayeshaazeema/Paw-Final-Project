@@ -1,10 +1,9 @@
-package com.ayeshaazeema.paw.adapter
+package com.ayeshaazeema.paw.data.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.content.getSystemService
 import androidx.viewpager.widget.PagerAdapter
 
 class SliderAdapter(
